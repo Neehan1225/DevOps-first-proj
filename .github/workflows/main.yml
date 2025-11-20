@@ -1,0 +1,20 @@
+name: Hello World CI
+
+on:
+  push:
+    branches:
+      - main # Or whatever your primary branch is (e.g., master)
+  pull_request:
+    branches:
+      - main # Or whatever your primary branch is
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Action to check out your repository's code
+
+      - name: Say Hello World
+        run: echo "Hello World!" # Simple command to print "Hello World!"
