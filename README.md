@@ -1,4 +1,8 @@
 # DevOps-first-proj
-Demo repositpry for devOps project
-linking jeerta to git hub, by creating epic
-changes made
+
+Demo repository for a DevOps project.
+
+- Linking Jira to GitHub by creating an Epic
+- Question upload feature added
+- Additional changes made
+
